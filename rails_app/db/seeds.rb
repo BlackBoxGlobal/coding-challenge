@@ -7,17 +7,80 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 actors = [
-  {first_name: "Dan", last_name: "Castellaneta"},
-  {first_name: "Hank", last_name: "Azaria"},
-  {first_name: "Nancy", last_name: "Cartwright"},
-  {first_name: "Harry", last_name: "Shearer"},
-  {first_name: "Julie", last_name: "Kavner"},
-  {first_name: "Yeardly", last_name: "Smith"},
-  {first_name: "Tress", last_name: "MacNeille"},
-  {first_name: "Marcia", last_name: "Wallace"},
-  {first_name: "Russi", last_name: "Taylor"},
-  {first_name: "Phil", last_name: "Hartman"},
-  {first_name: "Kelsey", last_name: "Grammer"}
+  {
+    first_name: "Dan", 
+    last_name: "Castellaneta"
+    characters: [
+      {
+        first_name: "Homer",
+        last_name: "Simpson"
+      },
+      {
+        first_name: "Abraham",
+        last_name: 'Simpson'
+      },
+      {
+        first_name: "Barney",
+        last_name: 'Gumble'
+      },
+      {
+        first_name: "Herschel", 
+        last_name: "Krustofsky"
+      },
+    ]
+  },
+  {
+    first_name: "Hank", 
+    last_name: "Azaria",
+    characters: [
+      {first_name: "Moe", last_name: "Szyslak"},
+      {first_name: "Clancy", last_name: "Wiggum"},
+    ]
+  },
+  {
+    first_name: "Nancy", 
+    last_name: "Cartwright",
+    characters: [
+      {first_name: "Bart", last_name: "Simpson"},
+      {first_name: "Martin", last_name: "Prince"},
+      {first_name: "Ralph", last_name: "Wiggum"},
+    ]
+  },
+  {
+    first_name: "Harry", 
+    last_name: "Shearer",
+    characters: [
+      {first_name: "Ned", last_name: "Flanders"},
+      {first_name: "Waylon", last_name: "Smithers"},
+    ]
+  },
+  {
+    first_name: "Julie", 
+    last_name: "Kavner"},
+  {
+    first_name: "Yeardly", 
+    last_name: "Smith"
+  },
+  {
+    first_name: "Tress", 
+    last_name: "MacNeille"
+  },
+  {
+    first_name: "Marcia", 
+    last_name: "Wallace"
+  },
+  {
+    first_name: "Russi", 
+    last_name: "Taylor"
+  },
+  {
+    first_name: "Phil", 
+    last_name: "Hartman"
+  },
+  {
+    first_name: "Kelsey", 
+    last_name: "Grammer"
+  }
 ]
 
 characters = [
@@ -37,7 +100,10 @@ characters = [
   {first_name: "Eleanor", last_name: "Abernathy"},
   {first_name: "Martin", last_name: "Prince"},
   {first_name: "Troy", last_name: "McClure"},
-  {first_name: "Lionel", last_name: "Hutz"}
+  {first_name: "Lionel", last_name: "Hutz"},
+  {first_name: "Moe", last_name: "Szyslak"},
+  {first_name: "Ned", last_name: "Flanders"},
+  {first_name: "Waylon", last_name: "Smithers"}
 ]
 
 actors.each do |a|
