@@ -13,3 +13,78 @@
  *= require_tree .
  *= require_self
  */
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  width: 60%;
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 10px;
+  margin-top: 5%;
+  /* text-align: center; */
+}
+h1 {
+  text-align: center;
+}
+table {
+  width: 100%;
+}
+form {
+  margin: 0 25%;
+}
+.field {
+  margin-bottom: 15px;
+}
+.actions {
+  margin-top: 20px;
+}
+input,
+select {
+  width: 100%;
+  text-align: left;
+  height: 30px;
+  margin-right: 5px;
+}
+label {
+  display: block;
+  margin-bottom: 7px;
+}
+input[type="submit"] {
+  width: auto;
+  margin-bottom: 20px;
+}
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td,
+table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}
+.flex {
+  display: flex;
+}

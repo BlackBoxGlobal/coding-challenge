@@ -1,0 +1,31 @@
+.flex {
+  display: flex;
+  width: 100%;
+  color: #333;
+  font-size: 17px;
+}
+
+.flex > .col {
+  margin: 10px;
+  padding: 20px;
+  min-height: 30em;
+  border: 3px solid rgb(94, 94, 94);
+  border-radius: 7px;
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex > .row {
+  position: absolute;
+  margin: 7% 0 0 12%;
+  border: 3px solid rgb(94, 94, 94);
+  border-radius: 7px;
+  width: 72%;
+  min-height: 6em;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
